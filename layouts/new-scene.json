@@ -1,18 +1,18 @@
 {
-  "b": 0,
+  "b": 128,
   "disableInputWhenNotFocused": true,
   "mangledName": "New_32scene",
   "name": "New scene",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
-  "r": 0,
+  "r": 128,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
   "title": "Mimi's Universe",
   "v": 0,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridB": 255,
     "gridG": 180,
     "gridHeight": 32,
@@ -20,7 +20,7 @@
     "gridOffsetY": 0,
     "gridR": 158,
     "gridWidth": 32,
-    "snap": true,
+    "snap": false,
     "windowMask": false,
     "zoomFactor": 0.376
   },
@@ -96,15 +96,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "height": 595,
       "layer": "",
       "locked": false,
       "name": "grid",
       "persistentUuid": "9cbe2578-d4e1-406f-86d7-bc32cedcc83a",
       "width": 760,
-      "x": 400,
-      "y": 300,
+      "x": 2291,
+      "y": 446,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,14 +311,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 380,
-                    "y": 314
+                    "x": 1432,
+                    "y": 1111
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 380,
-                    "y": 314
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
                 }
@@ -780,6 +780,17 @@
             "Variable(Red)"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SceneBackground"
+          },
+          "parameters": [
+            "",
+            "ToString(temp.Y()*-0.419408+268.421)+\";0;\"+ToString(temp.Y()*0.419408-13.4211)"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -849,17 +860,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "grid",
-                "\"0;0;255\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarObjetTxt"
               },
               "parameters": [
@@ -895,17 +895,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "grid",
-                "\"255;0;0\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarObjetTxt"
               },
               "parameters": [
@@ -927,18 +916,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PosY"
-              },
-              "parameters": [
-                "temp",
-                "<=",
-                "400"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
@@ -954,22 +931,23 @@
                     "200"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "temp",
+                    "<=",
+                    "400"
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "grid",
-                "\"255;0;255\""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -1512,24 +1490,13 @@
           },
           "parameters": [
             "",
-            ".01",
+            ".02",
             "\"tgrid\""
           ],
           "subInstructions": []
         }
       ],
       "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tgrid\""
-          ],
-          "subInstructions": []
-        },
         {
           "type": {
             "inverted": false,
@@ -1551,6 +1518,17 @@
             "grid",
             "=",
             "grid.Opacity()+(Velocity.X()*0.00657895+.75474)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tgrid\""
           ],
           "subInstructions": []
         }
@@ -1609,7 +1587,7 @@
           "parameters": [
             "grid",
             "=",
-            "20"
+            "42"
           ],
           "subInstructions": []
         },
@@ -1621,7 +1599,7 @@
           "parameters": [
             "grid",
             "=",
-            "0.5"
+            "0.2"
           ],
           "subInstructions": []
         }
@@ -1641,7 +1619,7 @@
           "parameters": [
             "grid",
             ">",
-            "25"
+            "5"
           ],
           "subInstructions": []
         }

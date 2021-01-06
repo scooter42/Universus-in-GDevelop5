@@ -99,40 +99,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "velocity.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "velocity.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "temp.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "temp.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "2_1.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "2_1.mp3",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "grid.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "grid.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/velocity.png",
         "kind": "image",
         "metadata": "",
@@ -167,45 +133,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/ExplosionTexture1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ExplosionTexture1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Particles/ExplosionTexture1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ExplosionFog-Texture-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ExplosionFog-Texture-2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Particles/ExplosionFog-Texture-2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Lightning-Texture-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Lightning-Texture-1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Particles/Lightning-Texture-1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/broken16.jpg",
         "kind": "image",
         "metadata": "",
@@ -230,13 +157,6 @@
         "name": "gfx\\ExplosionTexture1.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "gfx/Universus-demo1.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "gfx\\Universus-demo1.mp4",
-        "userAdded": true
       },
       {
         "file": "sound/ice-cracking-01.mp3",
