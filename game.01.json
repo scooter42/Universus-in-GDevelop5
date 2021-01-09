@@ -99,28 +99,10 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "gfx/velocity.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\velocity.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/temp.png",
         "kind": "image",
         "metadata": "",
         "name": "gfx\\temp.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/grid.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\grid.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -164,17 +146,161 @@
         "metadata": "",
         "name": "sound\\ice-cracking-01.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/grid1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\grid1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/grid2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\grid2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/grid3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\grid3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/grid4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\grid4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/grid5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\grid5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/tempC.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\tempC.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/tempH.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\tempH.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/panelpiece.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\panelpiece.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/panelslider.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\panelslider.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/vUp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\vUp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/vDn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\vDn.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "name": "temp",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\temp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 50,
+                    "y": 50
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
   "variables": [],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene"
+      "referenceTo": "/layouts/ch2-1"
     }
   ],
   "externalEvents": [],
