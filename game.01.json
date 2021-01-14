@@ -245,56 +245,110 @@
         "name": "gfx\\vDn.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/3L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\3L.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/3R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\3R.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/4L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\4L.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/4R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\4R.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/5L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\5L.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/5R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\5R.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/6L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\6L.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/6R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\6R.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/time1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\time1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/skip1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\skip1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/skip2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\skip2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "name": "temp",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "gfx\\temp.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 50,
-                    "y": 50
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "objects": [],
   "objectsGroups": [],
   "variables": [],
   "layouts": [

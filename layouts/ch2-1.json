@@ -266,7 +266,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "GUI",
       "locked": false,
       "name": "slider3",
       "persistentUuid": "e2f4a8ae-f58b-4a6b-bf91-77343971229b",
@@ -282,7 +282,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "GUI",
       "locked": false,
       "name": "slider4",
       "persistentUuid": "af735f2e-e887-4fd8-af95-c0f4a9ee5abf",
@@ -298,7 +298,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "GUI",
       "locked": false,
       "name": "slider5",
       "persistentUuid": "37224b89-b075-4ae7-bb66-d923a8bf9277",
@@ -314,7 +314,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "GUI",
       "locked": false,
       "name": "slider6",
       "persistentUuid": "1422d0ba-f314-4775-b599-f6e9968e9528",
@@ -386,6 +386,230 @@
       "x": 0,
       "y": 128,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel3L",
+      "persistentUuid": "e025fed8-59b9-4c44-a3b2-ee90ac882322",
+      "width": 0,
+      "x": 0,
+      "y": 224,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel3R",
+      "persistentUuid": "63b8785d-77cf-4fa0-86ff-05f3765307e3",
+      "width": 0,
+      "x": 160,
+      "y": 224,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel4L",
+      "persistentUuid": "1106c386-c360-4b44-9fce-3b01fa12994a",
+      "width": 0,
+      "x": 0,
+      "y": 320,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel4R",
+      "persistentUuid": "c9f88c0d-55ff-4567-ba1b-845e690b615f",
+      "width": 0,
+      "x": 192,
+      "y": 320,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel5L",
+      "persistentUuid": "24c1d60f-5a88-487a-81e7-0453a6c0771b",
+      "width": 0,
+      "x": 0,
+      "y": 416,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel5R",
+      "persistentUuid": "0bff6259-8e2a-4ede-8b7d-70198bd13ccf",
+      "width": 0,
+      "x": 192,
+      "y": 416,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel6L",
+      "persistentUuid": "2a04394c-6509-4be8-b83c-4b085039ca82",
+      "width": 0,
+      "x": 0,
+      "y": 512,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Panel6R",
+      "persistentUuid": "b42b31bd-4ef3-4ec2-bdac-8ff20f504863",
+      "width": 0,
+      "x": 192,
+      "y": 512,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "time",
+      "persistentUuid": "fd25d59d-9033-4dd1-91e1-e01a414aca07",
+      "width": 0,
+      "x": 480,
+      "y": 512,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Skip2L",
+      "persistentUuid": "7e224bc1-358e-4bff-b6a2-5b29c946c8d9",
+      "width": 0,
+      "x": 288,
+      "y": 512,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Skip1L",
+      "persistentUuid": "c7493ef4-d7c0-43f2-8cb1-0dec02735e02",
+      "width": 0,
+      "x": 384,
+      "y": 512,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Skip2R",
+      "persistentUuid": "e2dc5d67-f05f-458d-93a7-12fdcfae3be7",
+      "width": 0,
+      "x": 672,
+      "y": 512,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Skip1R",
+      "persistentUuid": "3b6b03a3-db96-4842-b225-7ff695f60377",
+      "width": 0,
+      "x": 576,
+      "y": 512,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Skip2L",
+      "persistentUuid": "5d802581-aa19-40ce-a561-95d90ef6aabd",
+      "width": 0,
+      "x": 288,
+      "y": 512,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1130,6 +1354,513 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "gfx\\vUp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel3L",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\3L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel3R",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\3R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel4L",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\4L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel4R",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\4R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel5L",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\5L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel5R",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\5R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel6L",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\6L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panel6R",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\6R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "time",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\time1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip1R",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\skip1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip2R",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\skip2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip1L",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\skip1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip2L",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\skip2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2281,6 +3012,51 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Skip1L",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"ch2.1\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
